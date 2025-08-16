@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import 'flowbite';
+
+nav.active{
+    background-color: rgb(23, 23, 23) !important;
+    color: white !important;
+}
+h1,h2{
+  font-family: "Pacifico", cursive;
+}
+
+
