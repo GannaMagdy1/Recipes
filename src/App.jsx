@@ -8,13 +8,13 @@ import Home from './Components/Home/Home'
 import Layout from './Components/Layout/Layout'
 
 import RecipeDetails from './Components/RecipeDetails/RecipeDetails'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, createHashRouter, RouterProvider } from 'react-router-dom'
 import Projects from './Components/SideBar/SideBar'
 import MealCategory from './Components/MealCategory/MealCategory';
 
 
 function App() {
- let router = createBrowserRouter([
+ let router = createHashRouter([
     {
       path: "",
       element: <Layout />,
